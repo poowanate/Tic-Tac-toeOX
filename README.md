@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## โปรเจ็คเกม OX (Tic-tac-toe) ด้วย Web Application stack Next.js
+คู่มือการเปิดไฟล์ สิ่งจำเป็นที่จะต้องมี
 
-## Getting Started
+ - ติดตั้งNode.js [Node.js — Run JavaScript Everywhere](https://nodejs.org/en)
+ - Code Editing - Visual Studio Code(VScode)
+ 
+## สารบัญ
+ - [ขั้นตอนการติดตั้ง](#%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87)
+ - [วิธีการเปิดใช้งาน](#%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%94%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99)
+ - [วิธีใช้งาน](#%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99)
 
-First, run the development server:
+ 
+## ขั้นตอนการติดตั้ง
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    git clone https://github.com/poowanate/Tic-Tac-toeOX.git
+    cd Tic-Tac-toeOX
+    npm i
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ ## วิธีการเปิดใช้งาน
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    npm run dev
 
-## Learn More
+ ## วิธีใช้งาน
 
-To learn more about Next.js, take a look at the following resources:
+    http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**ระบบจะบังคับให้ล็อคอินก่อนผ่าน Auth0**
+ ![enter image description here](https://img2.pic.in.th/pic/imageaddefc8c776b4a9a.png)
+ 
+**จากนั้นเมื่อ Login สำเร็จจะเข้าสู่หน้าแรกสามารถเริ่มเกมส์ได้ทันทีที่ปุ่ม Start**
+![enter image description here](https://img5.pic.in.th/file/secure-sv1/image4bc668bfe93d1d4c.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**หน้าตาเมนูเกมส์**
+ ![enter image description here](https://img2.pic.in.th/pic/image74eafdfdeb38c193.png)
 
-## Deploy on Vercel
+ **1. ท้าสู้AI ถ้าชนะจะได้รับ 1 คะแนน แพ้จะลบ 1 คะแนน 
+ 2. เมื่อชนะติดต่อกัน 3 ครั้งคะแนน +เพิ่ม 1 คะแนนและเริ่มนับชนะต่อเนื่องใหม่
+ 3. เสมอจะไม่เสียจำนวนนับของการชนะติดต่อกัน
+ 4. ระบบคะแนนจะนับคะแนนจาก API refresh คะแนนไม่หาย**
+ 
+ **หน้าตาระบบสมาชิก**
+ ![enter image description here](https://img5.pic.in.th/file/secure-sv1/imagec457cbc250c6f68a.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+มุมบนขวาของโปรแกรมจะมีปุ่มไว้สำหรับเปิด Dropdown
+มี 2 หัวข้อได้แก่
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ 1. profile - สามารถดูข้อมูลส่วนตัวได้
+ 2. Logout - ออกจากระบบ
