@@ -26,10 +26,13 @@
     http://localhost:3000
 
 **ระบบจะบังคับให้ล็อคอินก่อนผ่าน Auth0**
- ![enter image description here](https://img2.pic.in.th/pic/imageaddefc8c776b4a9a.png)
- 
+![enter image description here](https://img2.pic.in.th/pic/imageaddefc8c776b4a9a.png)
+
+
+
 **จากนั้นเมื่อ Login สำเร็จจะเข้าสู่หน้าแรกสามารถเริ่มเกมส์ได้ทันทีที่ปุ่ม Start**
 ![enter image description here](https://img5.pic.in.th/file/secure-sv1/image4bc668bfe93d1d4c.png)
+
 
 **หน้าตาเมนูเกมส์**
  ![enter image description here](https://img2.pic.in.th/pic/image74eafdfdeb38c193.png)
