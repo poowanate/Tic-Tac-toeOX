@@ -24,19 +24,21 @@
  ## วิธีใช้งาน
 
     http://localhost:3000
+    
 
+> **ระบบจะบังคับให้ล็อคอินก่อนผ่าน Auth0**
 
 ![enter image description here](https://img2.pic.in.th/pic/imageaddefc8c776b4a9a.png)
-**ระบบจะบังคับให้ล็อคอินก่อนผ่าน Auth0**
 
+> **จากนั้นเมื่อ Login สำเร็จจะเข้าสู่หน้าแรกสามารถเริ่มเกมส์ได้ทันทีที่ปุ่ม Start**
 
 
 ![enter image description here](https://img5.pic.in.th/file/secure-sv1/image4bc668bfe93d1d4c.png)
 
-**จากนั้นเมื่อ Login สำเร็จจะเข้าสู่หน้าแรกสามารถเริ่มเกมส์ได้ทันทีที่ปุ่ม Start**
 
- ![enter image description here](https://img2.pic.in.th/pic/image74eafdfdeb38c193.png)
 **หน้าตาเมนูเกมส์**
+ ![enter image description here](https://img2.pic.in.th/pic/image74eafdfdeb38c193.png)
+
  **1. ท้าสู้AI ถ้าชนะจะได้รับ 1 คะแนน แพ้จะลบ 1 คะแนน 
      2. เมื่อชนะติดต่อกัน 3 ครั้งคะแนน +เพิ่ม 1 คะแนนและเริ่มนับชนะต่อเนื่องใหม่
      3. เสมอจะไม่เสียจำนวนนับของการชนะติดต่อกัน
@@ -44,8 +46,9 @@
 
  
  
+ **หน้าตาระบบสมาชิก**
  ![enter image description here](https://img5.pic.in.th/file/secure-sv1/imagec457cbc250c6f68a.png)
-**หน้าตาระบบสมาชิก**
+
 มุมบนขวาของโปรแกรมจะมีปุ่มไว้สำหรับเปิด Dropdown
 มี 2 หัวข้อได้แก่
 
